@@ -1,0 +1,33 @@
+.header-top{
+    padding: 19px 0;
+    background: #1c1818;
+}
+.header-top .container{
+    padding-right: 90px;
+    padding-left: 150px;
+}
+.row{
+    @extend %space-between;
+}
+.short-contact-list ul{
+    @extend %space-between;
+}
+.short-contact-list ul li{
+    list-style: none;
+    a{
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        margin-right: 50px;
+        text-decoration: none;
+    }
+}
+.social-media-links a{
+    font-size: 18px;
+    color: #C7C7C7;
+    margin-left: 32px;
+    transition: 0.3s;
+}
+.social-media-links a:hover{
+    color: #fd7e14;;
+}
